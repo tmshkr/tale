@@ -1,6 +1,8 @@
 # Site settings
 title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
+url:            "https://www.tmshkr.com"
+baseurl:        "/tale"
 
 # Build settings
 markdown:       kramdown

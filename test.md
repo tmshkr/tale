@@ -6,3 +6,4 @@ permalink: /test/
 ---
 
 testing
+***test***

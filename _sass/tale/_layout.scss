@@ -8,14 +8,20 @@ main,
 footer,
 .nav-container {
   display: block;
-  margin: 0 auto;
+  margin: 100px auto 0;
   max-width: 800px;
   width: 80%;
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  box-shadow: 2px 2px 2px $shadow-color;
   overflow: auto;
+  background-color: #002D40;
+  background-color: rgba(0, 45, 64, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
   &-container {
     margin: 1rem auto;
@@ -25,15 +31,10 @@ footer,
 
   &-title {
     @include transition(all .2s ease-out);
-    color: $default-color;
+    color: white;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
-
-    &:hover,
-    &:focus {
-      opacity: .6;
-    }
   }
 
   ul {
@@ -61,8 +62,9 @@ footer,
   }
 
   a {
-    color: $default-color;
+    color: white;
     font-family: $sans-serif;
+    font-weight: bold;
   }
 }
 
@@ -88,5 +90,6 @@ footer {
   span {
     color: $default-color;
     font-size: .8rem;
+    display: none;
   }
 }
